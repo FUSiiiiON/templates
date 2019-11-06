@@ -9,7 +9,10 @@ image: https://images-na.ssl-images-amazon.com/images/I/71KCLLJFetL.jpg
 template: '{"NAME":"Gosund SP111","GPIO":[56,0,57,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
 link_alt:
 ---
-
+There has been released a 15A version of the SP111. To get correct power measuring data, you need to use the following template (HLWBL CF1 (132) has been moved vrom GPIO14 to GPIO4):
+```
+{"NAME":"Gosund SP111","GPIO":[56,0,57,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}
+```
 
 
 
